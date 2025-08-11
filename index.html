@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="top-banner"></div>
+
+        <h2>Welcome Back 👋</h2>
+        <p class="subtitle">
+            Today is a new day. It’s your day. You shape it.<br>
+            Sign in to start managing your projects.
+        </p>
+
+        <form id="loginForm">
+            <label>Email</label>
+            <input type="email" placeholder="Example@email.com" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="At least 8 characters" minlength="8" required>
+
+            <a href="#" class="forgot">Forgot Password?</a>
+
+            <button type="submit" class="signin-btn">Sign in</button>
+        </form>
+
+        <div class="divider">
+            <span>Or sign in with</span>
+        </div>
+
+        <div class="social-login">
+            <button class="google"><img src="https://www.svgrepo.com/show/223041/google.svg"> Google</button>
+            <button class="facebook"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"> Facebook</button>
+        </div>
+
+        <p class="signup-text">Don’t you have an account? <a href="#">Sign up</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
